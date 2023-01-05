@@ -1,4 +1,5 @@
-
+import React from 'react';
+import { useLongPress } from 'use-long-press';
 function App() {
 
   const bind = useLongPress(() => {
